@@ -1,0 +1,21 @@
+Codes Dictionary
+
+GENERIC: 1 - 99:
+
+1 - Operation completed
+2 - Generic error
+3 - Internal server error
+
+AUTH: 100 - 199
+
+101 - Invalid auth token
+102 - Unauthorized
+103 - The auth token couldn't be refreshed, the user should login
+104 - Invalid user credentials
+105 - The user account is not active
+
+RESOURCES: 300 - 399
+
+301 - Mandatory parameter is missing or wrong value
+302 - There is not data to show
+303 - Resource not found
